@@ -42,7 +42,7 @@ void eqproblem(int num,int board[8][8],int set[8]){
                 if(tmp<0)break;
             }
             tmp=num;
-            for (j=i; j!=-1; j++) {
+            for (j=i; j!=8; j++) {
                 board[tmp][j]++;
                 tmp--;
                 if(tmp<0)break;
@@ -75,7 +75,7 @@ void eqproblem(int num,int board[8][8],int set[8]){
                 if(tmp<0)break;
             }
             tmp=num;
-            for (j=i; j!=-1; j++) {
+            for (j=i; j!=8; j++) {
                 board[tmp][j]--;
                 tmp--;
                 if(tmp<0)break;
